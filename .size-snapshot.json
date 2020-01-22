@@ -22,5 +22,29 @@
     "bundled": 16189,
     "minified": 7003,
     "gzipped": 2810
+  },
+  "lib\\react-gh-like-diff.cjs.js": {
+    "bundled": 14818,
+    "minified": 8070,
+    "gzipped": 2955
+  },
+  "es\\react-gh-like-diff.esm.js": {
+    "bundled": 14537,
+    "minified": 7836,
+    "gzipped": 2897,
+    "treeshaked": {
+      "rollup": {
+        "code": 6586,
+        "import_statements": 211
+      },
+      "webpack": {
+        "code": 7746
+      }
+    }
+  },
+  "dist\\react-gh-like-diff.umd.js": {
+    "bundled": 16207,
+    "minified": 7030,
+    "gzipped": 2816
   }
 }
