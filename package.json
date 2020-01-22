@@ -13,8 +13,8 @@
     "clean": "rimraf lib es dist",
     "build": "npm run clean && rollup -c",
     "size": "bundlesize",
-    "lint": "eslint src"
-	"prepare": "npm run build"
+    "lint": "eslint src",
+	  "prepare": "npm run build"
   },
   "jest": {
     "setupFiles": [
