@@ -1,7 +1,4 @@
 .DS_Store
-es
-lib
-dist
 node_modules
 coverage
 npm-debug.log
