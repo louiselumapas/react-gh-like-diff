@@ -24,27 +24,27 @@
     "gzipped": 2810
   },
   "lib\\react-gh-like-diff.cjs.js": {
-    "bundled": 14818,
-    "minified": 8070,
-    "gzipped": 2955
+    "bundled": 14835,
+    "minified": 8076,
+    "gzipped": 2960
   },
   "es\\react-gh-like-diff.esm.js": {
-    "bundled": 14537,
-    "minified": 7836,
-    "gzipped": 2897,
+    "bundled": 14554,
+    "minified": 7842,
+    "gzipped": 2902,
     "treeshaked": {
       "rollup": {
-        "code": 6586,
+        "code": 6592,
         "import_statements": 211
       },
       "webpack": {
-        "code": 7746
+        "code": 7752
       }
     }
   },
   "dist\\react-gh-like-diff.umd.js": {
-    "bundled": 16207,
-    "minified": 7030,
-    "gzipped": 2816
+    "bundled": 16226,
+    "minified": 7036,
+    "gzipped": 2820
   }
 }

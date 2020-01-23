@@ -517,7 +517,8 @@
     var currentArray = current.split(/\r|\n|\r\n/);
     var diffArray = difflib.unifiedDiff(pastArray, currentArray, {
       fromfile: nextOptions.originalFileName,
-      tofile: nextOptions.updatedFileName
+      tofile: nextOptions.updatedFileName,
+      n: Infinity
     });
     var diffString = format('diff --git %s %s\n%s', nextOptions.originalFileName, nextOptions.updatedFileName, diffArray.join('\n'));
     return {
