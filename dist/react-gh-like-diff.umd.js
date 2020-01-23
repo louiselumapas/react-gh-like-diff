@@ -518,7 +518,7 @@
     var diffArray = difflib.unifiedDiff(pastArray, currentArray, {
       fromfile: nextOptions.originalFileName,
       tofile: nextOptions.updatedFileName,
-      n: Infinity
+      n: 100000
     });
     var diffString = format('diff --git %s %s\n%s', nextOptions.originalFileName, nextOptions.updatedFileName, diffArray.join('\n'));
     return {

@@ -28,7 +28,7 @@ const compare = ({ past, current, options }) => {
   const diffArray = unifiedDiff(pastArray, currentArray, {
     fromfile: nextOptions.originalFileName,
     tofile: nextOptions.updatedFileName,
-    n:Infinity
+    n:100000
   });
 
   const diffString = format(
